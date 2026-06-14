@@ -1081,7 +1081,7 @@ DevPanelsSection:AddToggle("ShowCoords", { Title = "Show Coordinates", Default =
 
 local AboutSection = Tabs.About:AddSection("Credits & Links")
 AboutSection:AddButton({ Title = "Copy Discord Server Link", Callback = function()
-    local link = "https://discord.gg/WmYfXjf45"
+    local link = "https://discord.gg/gtFdtYSG"
     if setclipboard then setclipboard(link)
     else pcall(function() local tb = Instance.new("TextBox"); tb.Text = link; tb:CaptureFocus(); tb:ReleaseFocus(); tb:Destroy() end) end
     Fluent:Notify({ Title = "Discord", Content = "Discord server link copied!", Duration = 3 })
