@@ -1988,7 +1988,7 @@ end
 
 safeCall(function()
     Window:Tag({
-        Title = "v7.00.10",
+        Title = "v8.00.40",
         Icon = "shield-check",
         Color = Color3.fromHex("#30ff6a"),
         Radius = 13
